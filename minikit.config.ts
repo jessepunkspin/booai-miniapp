@@ -3,9 +3,9 @@ const ROOT_URL = process.env.ROOT_URL || "https://booai-miniapp-two.vercel.app";
 export const minikitConfig = {
   ROOT_URL,
   accountAssociation: {
-    header: "eyJmaWQiOjEwNzk5MjIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg3NWNhQTExM0Y1NzJhNDA3RWRiOGE0OUZjZTFjZjk0MTBFZjE4ODFjIn0",
+    header: "eyJmaWQiOjE0MzY3MDIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg1NkE4YTMzZUU1Q0VCNDE1M0NEMTVCMjFkQ0M5QThCMzJlYjRFRDU0In0",
     payload: "eyJkb21haW4iOiJib29haS1taW5pYXBwLXR3by52ZXJjZWwuYXBwIn0",
-    signature: "C/eFNEyDMGBpZMeppWweu7skqc9a0hWd/unVYQIE+CxPZpwUsTQQfjoHCWYO2eimj0SK5CX++CoJvVZ7A73Aahw="
+    signature: "xAHLY/48mtQxICRfQqacNBc212YoN8NaMrwn+ANC5L8e78cUYt3eEXxyMeVwM30nmG1FmMkeJTZQkOgX0ukJIhw="
   },
   miniapp: {
     name: "BooAI",
