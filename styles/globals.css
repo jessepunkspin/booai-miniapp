@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-b from-purple-900 via-black to-black text-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(8px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.06);
+}
