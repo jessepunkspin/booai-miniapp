@@ -31,6 +31,15 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="fc:frame" content="vNext" />
+        <meta name="fc:frame:image" content="https://booai-miniapp-two.vercel.app/og-image.png" />
+        <meta name="fc:frame:image:aspect_ratio" content="1.91:1" />
+        <meta name="fc:frame:button:1" content="Open App" />
+        <meta name="fc:frame:button:1:action" content="link" />
+        <meta name="fc:frame:button:1:target" content="https://booai-miniapp-two.vercel.app" />
+        <meta name="fc:frame:post_url" content="https://booai-miniapp-two.vercel.app" />
+      </head>
       <body>
         <div className="min-h-screen flex flex-col items-center py-8 px-4">
           <div className="w-full max-w-3xl">{children}</div>
