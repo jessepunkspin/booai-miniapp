@@ -1,4 +1,12 @@
 {
+  "name": "BooAI",
+  "description": "Boost Farcaster posts with BOOAI tokens and earn by engaging with boosted content.",
+  "shortDescription": "Earn by engaging",
+  "splashImageUrl": "https://booai-miniapp-two.vercel.app/splash.png",
+  "splashBackgroundColor": "#1a0b2e",
+  "iconUrl": "https://booai-miniapp-two.vercel.app/icon.png",
+  "homeUrl": "https://booai-miniapp-two.vercel.app",
+  "webhookUrl": "https://booai-miniapp-two.vercel.app/api/webhook",
   "accountAssociation": {
     "header": "eyJmaWQiOjE0MzY3MDIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg1NkE4YTMzZUU1Q0VCNDE1M0NEMTVCMjFkQ0M5QThCMzJlYjRFRDU0In0",
     "payload": "eyJkb21haW4iOiJib29haS1taW5pYXBwLXR3by52ZXJjZWwuYXBwIn0",
