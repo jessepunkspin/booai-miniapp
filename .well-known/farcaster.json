@@ -6,13 +6,15 @@
   },
   "frame": {
     "version": "1",
-    "name": "booai Frame",
+    "name": "BooAI",
     "iconUrl": "https://booai-miniapp-two.vercel.app/icon.png",
-    "homeUrl": "https://booai-miniapp-two.vercel.app",
-    "imageUrl": "https://booai-miniapp-two.vercel.app/image.png",
-    "buttonTitle": "Check this out",
+    "homeUrl": "https://booai-miniapp-two.vercel.app/",
     "splashImageUrl": "https://booai-miniapp-two.vercel.app/splash.png",
     "splashBackgroundColor": "#eeccff",
     "webhookUrl": "https://booai-miniapp-two.vercel.app/api/webhook"
+  },
+  "notificationDetails": {
+    "url": "https://booai-miniapp-two.vercel.app/api/webhook",
+    "targetUrl": "https://booai-miniapp-two.vercel.app/"
   }
 }
